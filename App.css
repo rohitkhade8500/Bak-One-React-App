@@ -1,0 +1,55 @@
+.App {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #f8f8f8;
+  padding: 20px;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  margin: 20px;
+}
+
+.header nav ul li a:hover{
+  background-color: #00bfa5;
+  color: white;
+  
+  
+}
+
+.hero-section {
+  background: url('assets/bg.jpg') ;
+  color: white;
+  padding: 100px 20px;
+}
+
+.portfolio, .about, .contact, .footer {
+  padding: 50px 20px;
+}
+
+.portfolio-filters button, .portfolio-item, .team-member, .contact form button {
+  margin: 10px;
+}
